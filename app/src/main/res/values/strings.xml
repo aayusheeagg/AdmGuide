@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">AdmGuide</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Exit</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="menu">
+        <item>Step 1</item>
+        <item>Step 2</item>
+        <item>Step 3</item>
+        <item>Point To Remeber</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">
+        Provides guideline about the admission process in MNNIT.\n
+
+
+    </string>
+    <string name="team1">Aayushee Aggrawal\n
+        aayushi.mca16@mnnit.ac.in
+
+    </string>
+    <string name="team2">Manvi Bansal\n
+        manvibansal.08@gmail.com
+    </string>
+    <string name="team3">Manpreet Kaur Dhaliwal\n
+        dhaliwalm12@gmail.com
+    </string>
+
+
+    <string name="step2_text">Reached College..??\n
+        On reaching college you will find three gates i.e. Ganga gate , saraswati gate and Yamuna gate\n
+1.	Go to seminar hall. \n
+2.	Outside seminar hall there will be advocates , from whom you have to take different affidavits.\n
+3.  Attested Documents will be verified.\n
+4.	Deposit your academic fee draft and submit required documents there.\n
+5.  Go to computer centre , where further formalities will be done.\n
+6.  Congo on being registered. :) \n
+     </string>
+    <string name="step3_text">
+        Get admitted to college?Now its time to spend hostel life.\n
+        So for the hostel, There are 7 Boys and 3 Girls hostels in our Institute out of which girls get KNGH and boys get Mega Hostel.\n\n
+        For admission to hostel fill your hostel form provided at college website.\n
+     1.)Go to your corresponding hostel.\n
+     2.)Submit your draft of Rs. 15000 as mess fee.\n
+     3.)Submit your hostel form along with it.\n
+     4.)Room will be alloted.\n
+    </string>
+    <string name="points_text">
+1.	Bring at least five passport size photos.\n
+2.	Bring at least two copies of registration page.\n
+3.	Bring your all academic certificates and at least three attested photo copies.\n
+4.	Draft of college fees and draft of mess.\n
+5.	Affidavit(can purchase in college premises also).\n
+6.	Keep important stationary with u.\n
+7.	Print out of forms given in college website.\n\n
+
+    </string>
+
+<string-array name = "spinner_item">
+    <item>B.Tech</item>
+    <item>M.Tech</item>
+    <item>MCA</item>
+    <item>MBA</item>
+    <item>M.Sc.</item>
+</string-array>
+</resources>

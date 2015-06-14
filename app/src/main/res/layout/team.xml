@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    >
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="67dp"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_horizontal"
+        android:text="                Team Members"
+
+        android:capitalize="characters"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:focusable="false"
+        android:textSize="26dp"
+        android:textIsSelectable="false" />
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/photo1"
+        android:clickable="true"
+        android:background="@drawable/ash"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:text="@string/team1"
+
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:focusable="false"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/photo2"
+            android:background="@drawable/manvib"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/team2"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:focusable="false"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="320dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/photo3"
+            android:background="@drawable/manpreet"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/team3"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:focusable="false"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
